@@ -68,9 +68,9 @@ jQuery(function ($) {
             slide_links: 'blank',		// Individual links for each slide (Options: false, 'num', 'name', 'blank')
             thumb_links: 0,				// Individual thumb links for each slide
             slides: [				// Slideshow Images
-							{ image: 'assets/img/team/team1.jpg', title: '', thumb: '', url: '' },
-							{ image: 'assets/img/team/team2.jpg', title: '', thumb: '', url: '' },
-							{ image: 'assets/img/team/team3.jpg', title: '', thumb: '', url: '' }
+							{ image: 'assets/img/background_slideshow/background1.jpg', title: '', thumb: '', url: '' },
+							{ image: 'assets/img/background_slideshow/background2.jpg', title: '', thumb: '', url: '' },
+							{ image: 'assets/img/background_slideshow/background3.jpg', title: '', thumb: '', url: '' }
             ],
         });
 
