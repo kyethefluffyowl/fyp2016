@@ -21,6 +21,7 @@ body {
 
 img {
   border: none;
+  /*-webkit-filter:blur(2px);*/ /*Remove comments if decided if blur is wanted*/
 }
 
 #supersized-loader {
@@ -54,18 +55,19 @@ img {
   border: none;
 }
 
+/*Speed*/
 #supersized.speed img {
   -ms-interpolation-mode: nearest-neighbor;
   image-rendering: -moz-crisp-edges;
 }
 
-/*Speed*/
+/*Quality*/
 #supersized.quality img {
   -ms-interpolation-mode: bicubic;
   image-rendering: optimizeQuality;
 }
 
-/*Quality*/
+
 #supersized li {
   display: block;
   list-style: none;
@@ -74,8 +76,8 @@ img {
   overflow: hidden;
   top: 0;
   left: 0;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   background: #111;
 }
 
