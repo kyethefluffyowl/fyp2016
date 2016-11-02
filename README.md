@@ -1,4 +1,4 @@
-# fyp2016
+ # fyp2016
 
 
 Generate the QR code in the backend, upon buying a thing.
@@ -14,8 +14,8 @@ Example: d=anytext (when scanned, mobile users can read your text message)<br/>
 Example: d=TEL:5551231234 (when scanned, mobile users can add your TEL# to their contacts and dial number)<br/>
 Example: d=MAILTO:me@qrickit.com (when scanned, mobile users can add your EMAIL address to their contacts and send email)<br/>
 
-Once generated,
-1. Send the link
+Once generated,<br/>
+1. Send the link<br/>
 2. embed (iFrame) the image in the mail 
 
 Concerns
