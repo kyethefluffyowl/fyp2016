@@ -1,5 +1,4 @@
- # fyp2016
-
+# fyp2016
 
 Generate the QR code in the backend, upon buying a thing.
 Will use the orderID as the unique key.
