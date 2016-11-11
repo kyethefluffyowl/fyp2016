@@ -1,15 +1,6 @@
 /*
 
-October - Responsive One Page HTML Template
-
-Author: RBWebDesign
-Date: October 2016
-Version: 1.0
-
------------------------
-| [Table of Contents] |
------------------------
-
+[Table of Contents]
 1. Main Style
 2. Navigation Bar
 3. Main Top
@@ -349,7 +340,7 @@ textarea:focus {
   height: 100%;
 }
 
-.main-top .main-content {
+.main-top .main-content { /*Dark Background Over Image*/
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,0.7);
@@ -361,7 +352,7 @@ textarea:focus {
   vertical-align: middle;
 }
 
-.main-top .main-content h2 {
+.main-top .main-content h2 { /*Top Square Rectangle */
   color: #FFF;
   font-size: 50px;
   font-weight: 300;

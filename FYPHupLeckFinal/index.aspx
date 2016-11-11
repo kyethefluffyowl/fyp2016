@@ -1,27 +1,29 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
 
-<html class="csstransforms csstransforms3d csstransitions">
+<!DOCTYPE html>
 
-<head>
-    <meta charset="utf-8">
+<html xmlns="http://www.w3.org/1999/xhtml" class="csstransforms csstransforms3d csstransitions">
+
+<head runat="server">
+    <meta charset="utf-8"/>
     <title>Hup Leck </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="We aim to be the best logistics company in the whole of South East Asia">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="description" content="We aim to be the best logistics company in the whole of South East Asia"/>
 
     <!-- STYLES -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
-    <link href="assets/css/supersized.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.css" rel="stylesheet">
-    <link href="assets/css/owl.theme.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/font-awesome.css" rel="stylesheet"/>
+    <link href="assets/css/supersized.css" rel="stylesheet"/>
+    <link href="assets/css/animate.css" rel="stylesheet"/>
+    <link href="assets/css/owl.carousel.css" rel="stylesheet"/>
+    <link href="assets/css/owl.theme.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
 
     <!-- GOOGLE FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,500,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,500,600,700' rel='stylesheet' type='text/css'/>
 </head>
 <body id="top">
-
+   
     <!--IMAGES-->
     <div class="parallax-mirror" style="left: 0px; top: 0px; width: 1905px; height: 459px; overflow: hidden; visibility: hidden; position: fixed; z-index: -100; transform: translate3d(0px, 0px, 0px);">
         <img class="parallax-slider" style="left: 0px; width: 1905px; height: 1905px; position: absolute; max-width: none; transform: translate3d(0px, 0px, 0px);" src="assets/img/team/team2.jpg">
@@ -35,7 +37,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index-2.html" class="navbar-title"><span class="color">Hup</span>Leck</a>
+            <a href="index.aspx" class="navbar-title"><span class="color">Hup</span>Leck</a>
         </div>
         <nav class="navbar-collapse collapse" id="main-nav">
             <ul class="nav navbar-nav navbar-right nav-text-light">
@@ -45,6 +47,7 @@
                 <li><a href="#services">SERVICES</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
                 <li><a href="#contact">CONTACT</a></li>
+                <li><a href="login_signup.html">LOGIN</a></li>
             </ul>
         </nav>
     </div>
@@ -66,7 +69,7 @@
     <!-- MAIN CONTENT -->
     <div id="main-content" class="main-content">
 
-        <!-- ABOUT -->
+        <!-- ABOUT BAR -->
         <div class="section top">
             <div class="section-content">
                 <div class="row text-center">
@@ -88,17 +91,34 @@
                 </div>
             </div>
         </div>
+        
+        
+        <!-- ABOUT DESCRIPTION -->
         <div id="about" class="section about padding-top padding-bottom">
             <div class="container">
                 <div class="section-heading">
                     <h2>ABOUT</h2>
-                    <p>Who We Are</p>
+                    <p>Corporate Profile</p>
                 </div>
                 <div class="section-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                        The HL Group has progressed significantly over the last few years and it has become a key player in the heavy equipment, marine and transportation industry, striving to provide a complete range of value-added heavy lifting logistics services to our customers with safety, efficiency and competitive pricing.
+                        <br /><br />
+                        In 1980, the Group started with one of its first companies, Hup Leck Crane and Transport Services, that was formed with three partners: Mr. Thng Kian Tong, Mr. Leow Boon Tiam, and Mr. Tan Eng Lai. It started its business operation with a locally-made 15 tonne mobile truck crane. Its principal activities then were heavy haulage and heavy lifting. Since then, the Group has grown in size with substantial capital investment in plant and equipment, increased employment of employees, and enlarged offices and industrial spaces. Currently, the Group provides services such as heavy haulage and lifting, tug & barge rental, inland & marine transportation, engineering, trading, building & construction equipment rental, warehousing services, handling of dangerous & explosive cargoes among others.
+                        <br /><br />
+                        With our large fleet of vehicles numbering more than 120 vehicles comprising of mobile cranes ranging from 20 tonnes to 400 tonnes, prime movers, lorries, lorry cranes and all types of trailers, we are capable of ensuring smooth heavy haulage operations. On top of that, we have a team of experienced and capable personnel to cater to all sorts of job scope and situations. In addition, our personnel is capable of working out a concise operation plan that includes forecast details and time schedule before carrying out its operation to ensure safety, timeliness and efficiency.
+                        <br />
+                        Our key personnel in sales, operations as well as senior management are always contactable on 24/7 basis either by mobile communications or by email.
+                        <br /><br />
+                        Our computer system is linked onto broadband with PSA’s Portnet and Tradenet and MPA’s Marinet for speedy processing of shipping documents resulting in faster clearance of cargoes.
+                        <br /><br />
+                        As we are approaching into the electronic age, we are merging the conventional method of selling our products and services from a totally brick and mortar manner to one that uses the click and mortar system whereby you can order for your products and services from the comfort of your offices, your home or even when you are out of Singapore. As such, we have enabled the E-Commerce system for your total convenience.
+                    </p>
                 </div>
             </div>
         </div>
+
+        <!--PAGE BREAKER-->
         <div class="section dark">
             <div class="container">
                 <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -314,7 +334,7 @@
             </div>
         </div>
 
-        <!-- NEWSLETTER -->
+        <!-- NEWSLETTER (REPURPOSE TO SOMETHING ELSE)--> <!-- 
         <div class="section newsletter">
             <div class="section-content">
                 <div class="container">
@@ -329,6 +349,7 @@
                 </div>
             </div>
         </div>
+        -->
 
         <!-- TESTIMONIALS -->
         <div id="testimonials" class="section testimonials parallax-container" data-parallax="scroll" data-image-src="assets/img/slider1.jpg" data-natural-width="1200" data-natural-height="1200">
@@ -370,15 +391,15 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         <h2><i class="fa fa-home"></i> ADDRESS</h2>
-                                        <p>123 Street, New York (USA)</p>
+                                        <p>16-18A Jalan Tukang, Singapore 619256</p>
                                     </li>
                                     <li>
                                         <h2><i class="fa fa-phone"></i> PHONE</h2>
-                                        <p>+123 456 789</p>
+                                        <p>(65) 6265 2002</p>
                                     </li>
                                     <li>
                                         <h2><i class="fa fa-envelope"></i> EMAIL</h2>
-                                        <p><a href="mailto:info@myemail.com">info@myemail.com</a></p>
+                                        <p><a href="mailto:sales@hlgroup.com.sg">sales@hlgroup.com.sg</a></p>
                                     </li>
                                 </ul>
                             </div>
@@ -460,22 +481,6 @@
     <script src="assets/js/parallax.min.js"></script>
     <script src="assets/js/main.js"></script>
 
-
-    <!--IMAGE SLIDER TOP-->
-    <ul class="quality" id="supersized" style="visibility: visible;">
-        <!--For the images in the background, please go to main.js to change the image path thx.-->
-        <li class="slide-0 activeslide" style="visibility: visible; opacity: 1;">
-            <a href="_blank"><img style="left: 0px; top: -406.5px; width: 1905px; height: 1276.35px;" src="assets/img/background_slideshow/background1.jpg"></a>
-        </li>
-
-        <li class="slide-1" style="visibility: visible; opacity: 1;">   
-            <a href="_blank"><img style="left: 0px; top: -406.5px; width: 1905px; height: 1276.35px;" src="assets/img/background_slideshow/background2.jpg"></a>
-        </li>
-
-        <li class="slide-2 prevslide" style="visibility: visible; opacity: 1;">
-            <a href="_blank"><img style="left: 0px; top: -406.5px; width: 1905px; height: 1276.35px;" src="assets/img/background_slideshow/background3.jpg"></a>
-        </li>
-    </ul>
 </body>
 
 
