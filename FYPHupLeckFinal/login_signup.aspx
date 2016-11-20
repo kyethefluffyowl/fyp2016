@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 
     <!--STYLES-->
-    <link href="assets/css/login_signup.css" rel="stylesheet">
+    <link href="assets/css/login_signup.css" rel="stylesheet"/>
     <link href="assets/css/supersized.css" rel="stylesheet" />
 
     <!--SCRIPT-->
@@ -42,7 +42,6 @@
 					<ul class="resp-tabs-list">
 						<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Login</span></li>
 						<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><label>/</label><span>Sign up</span></li>
-						<div class="clearfix"></div>
 					</ul>				  	 
 					<div class="resp-tabs-container">
 						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
@@ -95,14 +94,13 @@
 			<ul>
 				<li><p>Don't have an <a href="#">account?</a></p></li><span>/</span>
 				<li><p>Forgot <a href="#">password?</a></p></li>
-				<div class="clear"></div>
 			</ul>
 		</div>
 
     <ul class="speed" id="supersized" style="visibility: visible;">
         <li class="slide-0 activeslide" style="visibility: visible; opacity: 1;">
-            <a target="_blank">
-                <img style="left: 0px; top: -363.5px; width: 1905px; height: 1276.35px;" src="assets/img/background_slideshow/background1.jpg">
+            <a href="_blank">
+                <img style="left: 0px; top: -363.5px; width: 1905px; height: 1276.35px;" src="assets/img/background_slideshow/background1.jpg"/>
             </a>
         </li>
     </ul>
