@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="default.aspx.cs" Inherits="index" %>
 
 <!DOCTYPE html>
 
@@ -26,7 +26,7 @@
    
     <!--IMAGES-->
     <div class="parallax-mirror" style="left: 0px; top: 0px; width: 1905px; height: 459px; overflow: hidden; visibility: hidden; position: fixed; z-index: -100; transform: translate3d(0px, 0px, 0px);">
-        <img class="parallax-slider" style="left: 0px; width: 1905px; height: 1905px; position: absolute; max-width: none; transform: translate3d(0px, 0px, 0px);" src="assets/img/team/team2.jpg">
+        <img class="parallax-slider" style="left: 0px; width: 1905px; height: 1905px; position: absolute; max-width: none; transform: translate3d(0px, 0px, 0px);" src="assets/img/team/team2.jpg"/>
     </div>
     <!-- NAVBAR -->
     <div class="navbar navbar-fixed-top">
@@ -37,7 +37,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index.aspx" class="navbar-title"><span class="color">Hup</span>Leck</a>
+            <a href="default.aspx" class="navbar-title"><span class="color">HUP</span>LECK</a>
         </div>
         <nav class="navbar-collapse collapse" id="main-nav">
             <ul class="nav navbar-nav navbar-right nav-text-light">
@@ -249,7 +249,7 @@
                 <div class="work-item-wrapper">
                     <div class="row work-item-list">
                         <div class="col-md-4 col-sm-6 col-xs-12 work-item webdesign">
-                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" src="assets/img/portfolio/work1.jpg" alt="Work Description">
+                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" src="assets/img/portfolio/work1.jpg" alt="Work Description"/>
                             <div class="image-overlay">
                                 <a href="assets/img/portfolio/work1-ori.jpg" class="media-popup" title="Work #1">
                                     <div class="work-item-info">
@@ -261,7 +261,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 work-item webdevelopment">
-                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" src="assets/img/portfolio/work2.jpg" alt="Work Description">
+                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" src="assets/img/portfolio/work2.jpg" alt="Work Description"/>
                             <div class="image-overlay">
                                 <a href="assets/img/portfolio/work2-ori.jpg" class="media-popup" title="Work #2">
                                     <div class="work-item-info">
@@ -273,7 +273,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 work-item photography">
-                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" src="assets/img/portfolio/work3.jpg" alt="Work Description">
+                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" src="assets/img/portfolio/work3.jpg" alt="Work Description"/>
                             <div class="image-overlay">
                                 <a href="assets/img/portfolio/work3-ori.jpg" class="media-popup" title="Work #3">
                                     <div class="work-item-info">
@@ -285,7 +285,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 work-item graphic">
-                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" src="assets/img/portfolio/work4.jpg" alt="Work Description">
+                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" src="assets/img/portfolio/work4.jpg" alt="Work Description"/>
                             <div class="image-overlay">
                                 <a href="assets/img/portfolio/work4-ori.jpg" class="media-popup" title="Work #4">
                                     <div class="work-item-info">
@@ -297,7 +297,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 work-item graphic">
-                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" src="assets/img/portfolio/work5.jpg" alt="Work Description">
+                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" src="assets/img/portfolio/work5.jpg" alt="Work Description"/>
                             <div class="image-overlay">
                                 <a href="assets/img/portfolio/work5-ori.jpg" class="media-popup" title="Work #5">
                                     <div class="work-item-info">
@@ -309,7 +309,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 work-item webdesign graphic">
-                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" src="assets/img/portfolio/work6.jpg" alt="Work Description">
+                            <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" src="assets/img/portfolio/work6.jpg" alt="Work Description"/>
                             <div class="image-overlay">
                                 <a href="assets/img/portfolio/work6-ori.jpg" class="media-popup" title="Work #6">
                                     <div class="work-item-info">
@@ -411,17 +411,17 @@
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
                                             <label class="sr-only" for="name">Name:</label>
-                                            <input type="text" id="name" name="name" placeholder="Name *" required>
+                                            <input type="text" id="name" name="name" placeholder="Name *" required="required"/>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6">
                                             <label class="sr-only" for="email">Email:</label>
-                                            <input type="email" id="email" name="email" placeholder="Email *" required>
+                                            <input type="email" id="email" name="email" placeholder="Email *" required="required"/>
                                         </div>
                                     </div>
                                     <div class="row text-right">
                                         <div class="col-md-12 col-sm-12 col-xs-12">
                                             <label class="sr-only" for="message">Message:</label>
-                                            <textarea id="message" name="message" placeholder="Message *" required></textarea>
+                                            <textarea id="message" name="message" placeholder="Message *" required="required"></textarea>
                                             <button type="submit" class="btn btn-primary btn-lg" name="send">SEND</button>
                                         </div>
                                     </div>
