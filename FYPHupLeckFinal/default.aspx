@@ -19,7 +19,7 @@
     <link href="assets/css/owl.theme.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
 
-    <!-- GOOGLE FONTS --> lol
+    <!-- GOOGLE FONTS --> lol hello
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,500,600,700' rel='stylesheet' type='text/css'/>
 </head>
 <body id="top">
