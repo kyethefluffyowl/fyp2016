@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="login_signup.aspx.cs" Inherits="login_signup" %>
 
-<!DOCTYPE html> <!--ILL REDO THIS PAGE LEL-->
+<!DOCTYPE html> ohsdgdsibgosdilgxdilbkgdlf
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
